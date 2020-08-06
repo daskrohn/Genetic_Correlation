@@ -2,7 +2,7 @@
 LD score regression and GCTA-GREML.  
 
 ## Prep summary stats
-merged_ldsc_snp.ls is a file matching hg19 chr:bp to rs-IDs, with effect and reference alleles based on minor vs major alleles. 
+*merged_ldsc_snp.ls* is a file matching hg19 chr:bp to rs-IDs, with effect and reference alleles based on minor vs major alleles. (Downloadable here)
 
 ```R
 require(data.table)
