@@ -23,9 +23,6 @@ data1$merge <- paste(data1$CHROM,data1$POS,data1$A1,data1$A2, sep = ":")
 
 data2$merge = paste(data2$MarkerName,data2$eff,data2$ref,sep = ":")
 
-head(data1)
-head(data2)
-
 mg = merge(data1, data2, by="merge", all.x=FALSE)
 tab = mg[,c("SNP", "A1", "A2", "Zscore", "P", "merge")]
 
