@@ -28,4 +28,13 @@ tab = mg[,c("SNP", "A1", "A2", "Zscore", "P", "merge")]
 
 write.table(tab,file=paste("toLDSC_LBD_sonja.tab"), quote = F, sep = "\t", row.names = F)
 ````
+## Ensure compatibility between summary stats
+Use python2, it doesn't work with python 3 :/  
+w_hm3.snplist can be downloaded from (ADD)  
 
+````
+/usr/bin/python2.7 munge_sumstats.py \
+--sumstats toLDSC_LBD_sonja.tab \
+--N 9447 \
+--out irbd \
+--merge-alleles w_hm3.snplist
