@@ -38,3 +38,21 @@ w_hm3.snplist can be downloaded from (ADD)
 --N 9447 \
 --out irbd \
 --merge-alleles w_hm3.snplist
+
+/usr/bin/python2.7 munge_sumstats.py \
+--sumstats toLDSC-iRBD.tab \
+--N 9447 \
+--out pdwrbd \
+--merge-alleles w_hm3.snplist
+````
+
+## Run genetic correlation (LD score regression)
+````
+/usr/bin/python2.7 ldsc.py \
+--rg irbd.sumstats.gz,pdwrbd.sumstats.gz \
+--ref-ld-chr eur_w_ld_chr/ \
+--w-ld-chr eur_w_ld_chr/ \
+--out irbd_pdwrbd
+````
+
+*The file with the results will be irbd_pdwrbd.log.* 
