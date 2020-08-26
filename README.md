@@ -56,3 +56,41 @@ w_hm3.snplist can be downloaded from (ADD)
 ````
 
 *The file with the results will be irbd_pdwrbd.log.* 
+
+## Run on LDHub
+Alternatively (or additionally), you can upload your summary statistics to http://ldsc.broadinstitute.org/ldhub/ and run genetic correlation using their bank of summary statistics. I did so for the groups which have either been associated to synucleinopathies in the past, or pertain to sleep:  
+* fill in
+* fill in
+* fill in  
+etc
+
+## Plot results 
+### Set up
+```R
+require(ggplot2)
+require(gridExtra)
+require(dplyr)
+require(tidyr)
+```
+### Graph: Diverging Bars
+
+```R
+meta <- read.csv("~/Desktop/Projects/GWAS/LD_regression/meta-graph-ldsc.csv", header=T)
+meta$categ <- ifelse(meta$rg < 0, "below", "above")
+
+m <- ggplot(meta, aes(x=factor(trait2, levels=rev(unique(trait2)), ordered=TRUE), y=rg, label=rg)) + 
+  geom_bar(stat='identity', aes(fill=categ, group=Level), width=.6, color = "black")  +
+  scale_fill_manual(#name="Correlation", 
+    #labels = c("Positive", "Negative"), 
+    values = c("above"="#00ba38", "below"="#f8766d")) + 
+  labs(subtitle="Genetic Corrletion (RBA meta-analysis)", 
+       title= "Diverging Bars") + 
+  theme(legend.position = "none") +
+  geom_errorbar(aes(x=trait2, ymin=ifelse(rg>0,rg,rg-se), 
+                    ymax=ifelse(rg>0,rg+se,rg)), width=0.2, 
+                colour="black", alpha=1, size=0.5) +
+  geom_hline(yintercept=0, color="black", size = 0.5) +
+  coord_flip() +
+  labs(x="Trait", y="genetic correlation coefficient") 
+m
+```
