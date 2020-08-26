@@ -1,0 +1,32 @@
+﻿trait2,Category,Level,ethnicity,note,rg,se,z,p,h2_obs,h2_obs_se,h2_int,h2_int_se,gcov_int,gcov_int_se
+Years of schooling 2016,education,1,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1281,0.0543,2.3572,0.0184,0.1269,0.0048,0.9266,0.0106,-0.0031,0.0053
+College completion,education,1,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1415,0.0746,1.8969,0.0578,0.0805,0.0059,1.0178,0.008,0.0017,0.0053
+Childhood IQ,education,1,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0716,0.1364,-0.5248,0.5998,0.2656,0.0448,1.0047,0.0094,0.0035,0.0063
+ ,,1,,,0,0,,,,,,,,
+Type 2 Diabetes,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1606,0.101,1.5899,0.1119,0.0883,0.0094,1.0071,0.0072,0.0154,0.005
+Fasting glucose main effect,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0414,0.0772,0.536,0.5919,0.0978,0.0193,0.9976,0.0095,0.0031,0.0043
+HbA1C,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0109,0.136,-0.0804,0.9359,0.0696,0.0121,0.9973,0.0074,0.0077,0.0054
+Fasting insulin main effect,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0142,0.108,-0.1316,0.8953,0.0681,0.0104,1.0154,0.007,-0.0088,0.0048
+HOMA-IR,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0463,0.1653,-0.2802,0.7793,0.0667,0.013,1.003,0.007,-0.0046,0.005
+HOMA-B,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.1186,0.1487,-0.7977,0.4251,0.087,0.0149,0.99,0.0071,-0.0033,0.0051
+  ,,2,,,0,0,,,,,,,,
+Parkinsons disease,neurological,3,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0085,0.092,-0.0919,0.9268,0.402,0.1173,1.1252,0.009,-0.008,0.0045
+Alzheimers disease,neurological,3,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0351,0.143,-0.2456,0.806,0.0459,0.0217,1.0648,0.0322,-0.0015,0.0049
+   ,,3,,,0,0,,,,,,,,
+Bipolar disorder,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1422,0.0783,1.8152,0.0695,0.4313,0.0384,1.0208,0.0077,0.0104,0.0044
+Anorexia Nervosa,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0231,0.0724,0.3189,0.7498,0.5549,0.0317,0.9006,0.0073,0.0167,0.0051
+Depressive symptoms,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.097,0.091,-1.0658,0.2865,0.0479,0.0036,0.9989,0.0072,0.0031,0.0052
+Major depressive disorder,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0057,0.1192,-0.048,0.9617,0.1726,0.0251,1.0048,0.006,-0.0064,0.0046
+Autism spectrum disorder,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0539,0.1237,-0.4361,0.6628,0.4601,0.0529,0.9648,0.0068,-0.0042,0.0051
+Subjective well being,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0093,0.0891,0.1046,0.9167,0.0249,0.002,1.0015,0.0072,-0.0016,0.0055
+    ,,4,,,0,0,,,,,,,,
+Sleep duration,sleeping,5,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1308,0.1171,1.1174,0.2638,0.0566,0.005,1.0189,0.0072,-0.0016,0.0056
+Excessive daytime sleepiness,sleeping,5,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1766,0.0938,1.8834,0.0597,0.0557,0.0048,0.9992,0.0064,-0.0027,0.0045
+Insomnia,sleeping,5,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0834,0.1045,0.7982,0.4247,0.049,0.0048,1.0008,0.0069,0.0006,0.0051
+Chronotype,sleeping,5,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0845,0.085,0.9944,0.32,0.1019,0.0059,1.0139,0.0078,-0.0025,0.0048
+     ,,5,,,0,0,,,,,,,,
+Age of smoking initiation,smoking_behaviour,6,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.4792,0.1908,2.5117,0.012,0.0649,0.018,0.9985,0.0062,-0.0066,0.0049
+Former vs Current smoker,smoking_behaviour,6,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.076,0.136,0.559,0.5762,0.0642,0.0102,0.9996,0.0063,0.0075,0.0046
+Smoking Initiation,smoking_behaviour,6,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.2459,0.1439,1.7083,0.0876,0.0046,0.0012,1.1091,0.0102,-0.0267,0.0063
+Cigarettes smoked per day,smoking_behaviour,6,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.1393,0.1313,-1.0614,0.2885,0.0618,0.0159,1.0048,0.0066,-0.0008,0.0047
+Ever vs never smoked,smoking_behaviour,6,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.2406,0.0946,-2.5448,0.0109,0.074,0.0069,0.9979,0.0061,-0.006,0.0047
