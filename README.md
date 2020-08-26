@@ -94,6 +94,6 @@ m <- ggplot(meta, aes(x=factor(trait2, levels=rev(unique(trait2)), ordered=TRUE)
   labs(x="Trait", y="genetic correlation coefficient") 
 m
 ```
-![meta diverging bars](meta-correlations.jpeg)
+![meta diverging bars](rbdmeta-correlations.jpeg)
 
 **NOTE:** From here, I am planning to manually add in the category names for each grouping of the diverging bars plot (e.g. Smoking, Education, etc). I have not been able to find a way to do this in R. 
