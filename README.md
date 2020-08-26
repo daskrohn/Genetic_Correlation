@@ -94,3 +94,4 @@ m <- ggplot(meta, aes(x=factor(trait2, levels=rev(unique(trait2)), ordered=TRUE)
   labs(x="Trait", y="genetic correlation coefficient") 
 m
 ```
+![meta diverging bars](meta-correlations.jpeg)
