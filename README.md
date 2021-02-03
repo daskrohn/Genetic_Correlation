@@ -75,20 +75,21 @@ meta <- read.csv("~/Desktop/Projects/GWAS/LD_regression/meta-graph-ldsc.csv", he
 meta$categ <- ifelse(meta$rg < 0, "below", "above")
 
 m <- ggplot(meta, aes(x=factor(trait2, levels=rev(unique(trait2)), ordered=TRUE), y=rg, label=rg)) + 
-  geom_bar(stat='identity', aes(fill=categ, group=Level), width=.6, color = "black")  +
+  geom_bar(position='dodge', stat='identity', aes(fill=categ, group=Level), width=.6, color = "black") +
   scale_fill_manual(#name="Correlation", 
     #labels = c("Positive", "Negative"), 
     values = c("above"="#00ba38", "below"="#f8766d")) + 
-  labs(subtitle="Genetic Corrletion (RBA meta-analysis)", 
-       title= "Diverging Bars") + 
+  labs(title= "RBD Meta-analysis") + 
   theme(legend.position = "none") +
   geom_errorbar(aes(x=trait2, ymin=ifelse(rg>0,rg,rg-se), 
                     ymax=ifelse(rg>0,rg+se,rg)), width=0.2, 
                 colour="black", alpha=1, size=0.5) +
   geom_hline(yintercept=0, color="black", size = 0.5) +
   coord_flip() +
-  labs(x="Trait", y="genetic correlation coefficient") 
+  labs(x="Trait", y="Genetic correlation coefficient") + 
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"))  
 m
+
 ```
 ![meta diverging bars](meta-correlations.jpeg)
 
