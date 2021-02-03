@@ -1,5 +1,5 @@
 # Genetic_Correlation
-LD score regression and GCTA-GREML.  
+LD score regression with LD Hub (http://ldsc.broadinstitute.org/).  
 
 ## Prep summary stats
 *merged_ldsc_snp.ls* is a file matching hg19 chr:bp to rs-IDs, with effect and reference alleles based on minor vs major alleles. (Downloadable here)
@@ -29,8 +29,8 @@ tab = mg[,c("SNP", "A1", "A2", "Zscore", "P", "merge")]
 write.table(tab,file=paste("toLDSC_LBD_sonja.tab"), quote = F, sep = "\t", row.names = F)
 ````
 ## Ensure compatibility between summary stats
-Use python2, it doesn't work with python 3 :/  
-w_hm3.snplist can be downloaded from (ADD)  
+Use python2, it doesn't work with python 3 :/ 
+w_hm3.snplist can be downloaded from https://data.broadinstitute.org/alkesgroup/LDSCORE/w_hm3.snplist.bz2
 
 ````
 /usr/bin/python2.7 munge_sumstats.py \
@@ -58,11 +58,7 @@ w_hm3.snplist can be downloaded from (ADD)
 *The file with the results will be irbd_pdwrbd.log.* 
 
 ## Run on LDHub
-Alternatively (or additionally), you can upload your summary statistics to http://ldsc.broadinstitute.org/ldhub/ and run genetic correlation using their bank of summary statistics. I did so for the groups which have either been associated to synucleinopathies in the past, or pertain to sleep:  
-* fill in
-* fill in
-* fill in  
-etc
+Alternatively, you can upload your summary statistics to http://ldsc.broadinstitute.org/ldhub/ and run genetic correlation using their bank of summary statistics. 
 
 ## Plot results 
 ### Set up
@@ -96,4 +92,6 @@ m
 ```
 ![meta diverging bars](meta-correlations.jpeg)
 
-**NOTE:** From here, I am planning to manually add in the category names for each grouping of the diverging bars plot (e.g. Smoking, Education, etc). I have not been able to find a way to do this in R. 
+**NOTE:** From here, I manually added in the category names for each grouping of the diverging bars plot (e.g. Smoking, Education, etc) using photoshop. Final result:
+
+
