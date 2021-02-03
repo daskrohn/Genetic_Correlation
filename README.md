@@ -67,6 +67,8 @@ require(ggplot2)
 require(gridExtra)
 require(dplyr)
 require(tidyr)
+
+theme_set(theme_bw())
 ```
 ### Graph: Diverging Bars
 
