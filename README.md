@@ -91,8 +91,8 @@ m <- ggplot(meta, aes(x=factor(trait2, levels=rev(unique(trait2)), ordered=TRUE)
 m
 
 ```
-![meta diverging bars](meta-correlations.jpeg)
+![meta diverging bars](rbdmeta-correlations.png)
 
 **NOTE:** From here, I manually added in the category names for each grouping of the diverging bars plot (e.g. Smoking, Education, etc) using photoshop. Final result:
 
-
+![meta diverging bars photoshop](rbdmeta_edited_ldsc.jpg)
