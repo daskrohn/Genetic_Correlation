@@ -10,9 +10,9 @@ HbA1C,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed fo
 Fasting glucose main effect,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.0414,0.0772,0.536,0.5919,0.0978,0.0193,0.9976,0.0095,0.0031,0.0043
 Type 2 Diabetes,glycemic,2,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,0.1606,0.101,1.5899,0.1119,0.0883,0.0094,1.0071,0.0072,0.0154,0.005
   ,,2,,,0,0,,,,,,,,
-Alzheimers disease,neurological,3,European,run with python (2019 study),0.377,0.1414,2.6666,0.0077,0.0083,0.0044,1.0509,0.0546,-0.0087,0.0045
-Parkinsons disease,neurological,3,European,run with python,0.595,0.106,5.6133,1.99E-08,0.0166,0.0017,0.9802,0.008,0.0125,0.0051
-Dementia with Lewy bodies,neurological,3,European,run with python,0.6788,0.2591,2.6202,0.0088,0.1525,0.0863,1.0062,0.0084,-0.007,0.005
+Alzheimer disease,neurological,3,European,run with python (2019 study),0.377,0.1414,2.6666,0.0077,0.0083,0.0044,1.0509,0.0546,-0.0087,0.0045
+Parkinson disease,neurological,3,European,run with python,0.595,0.106,5.6133,1.99E-08,0.0166,0.0017,0.9802,0.008,0.0125,0.0051
+Lewy body dementia,neurological,3,European,run with python,0.6788,0.2591,2.6202,0.0088,0.1525,0.0863,1.0062,0.0084,-0.007,0.005
    ,,3,,,0,0,,,,,,,,
 Depressive symptoms,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.097,0.091,-1.0658,0.2865,0.0479,0.0036,0.9989,0.0072,0.0031,0.0052
 Autism spectrum disorder,psychiatric,4,European,SNPs from the MHC (chr6 26M~34M) region was removed for this traits,-0.0539,0.1237,-0.4361,0.6628,0.4601,0.0529,0.9648,0.0068,-0.0042,0.0051
